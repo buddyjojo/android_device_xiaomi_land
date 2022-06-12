@@ -32,7 +32,7 @@ TARGET_KERNEL_CONFIG := lineageos_land_defconfig
 TARGET_LIBINIT_MSM8937_DEFINES_FILE := $(DEVICE_PATH)/libinit/init_land.cpp
 
 # Libshim
-TARGET_LD_SHIM_LIBS := /vendor/bin/mm-qcamera-daemon|vendor/lib/libshims_camera.so
+TARGET_LD_SHIM_LIBS := /system/vendor/bin/mm-qcamera-daemon|vendor/lib/libshims_camera.so
 
 # Security patch level
 VENDOR_SECURITY_PATCH := 2017-04-01
